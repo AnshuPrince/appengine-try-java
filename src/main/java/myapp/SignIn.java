@@ -14,7 +14,6 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -25,7 +24,7 @@ import javax.servlet.http.HttpSession;
  *
  * @author rahul
  */
-@WebServlet(name = "SignIn", urlPatterns = {"/SignIn"})
+
 public class SignIn extends HttpServlet {
 
    protected void processRequest(HttpServletRequest request, HttpServletResponse response)
